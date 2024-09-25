@@ -1,0 +1,481 @@
+    1  2024-09-25 13:10:05 sudo adduser user1
+    2  2024-09-25 13:10:05 sudo adduser user01 --enabled-password
+    3  2024-09-25 13:10:05 sudo adduser LOGIN
+    4  2024-09-25 13:10:05 whoami
+    5  2024-09-25 13:10:05 ls /home
+    6  2024-09-25 13:10:05 sudo su - user1
+    7  2024-09-25 13:10:05 ssh-keygen -y -f /"C:\Users\venkata.vegi\Downloads\user1_kp.pem"
+    8  2024-09-25 13:10:05 sudo su - user1
+    9  2024-09-25 13:10:05 sudo -i
+   10  2024-09-25 13:10:05 sudo su - user1
+   11  2024-09-25 13:10:05 sudo -i
+   12  2024-09-25 13:10:05 sudo su - user1
+   13  2024-09-25 13:10:05 su - user1
+   14  2024-09-25 13:10:05 su - i
+   15  2024-09-25 13:10:05 su-i
+   16  2024-09-25 13:10:05 su -i
+   17  2024-09-25 13:10:05 sudo su-i
+   18  2024-09-25 13:10:05 sudo su -i
+   19  2024-09-25 13:10:05 su -i
+   20  2024-09-25 13:10:05 su - i
+   21  2024-09-25 13:10:05 sudo su -i
+   22  2024-09-25 13:10:05 su - i
+   23  2024-09-25 13:10:05 su -root
+   24  2024-09-25 13:10:05 su - root
+   25  2024-09-25 13:10:05 su -i
+   26  2024-09-25 13:10:05 su --i
+   27  2024-09-25 13:10:05 su --help
+   28  2024-09-25 13:10:05 su -i
+   29  2024-09-25 13:10:05 sudo /etc/ssh/sshd_config
+   30  2024-09-25 13:10:05 sudo etc/ssh/sshd_config
+   31  2024-09-25 13:10:05 sudo vi  /etc/ssh/sshd_config
+   32  2024-09-25 13:10:05 sudo systemctl restart sshd
+   33  2024-09-25 13:10:05 sudo su
+   34  2024-09-25 13:10:05 su - user1
+   35  2024-09-25 13:10:05 sudo adduser test1
+   36  2024-09-25 13:10:05 sudo useradd test2
+   37  2024-09-25 13:10:05 cd home
+   38  2024-09-25 13:10:05 cd /home
+   39  2024-09-25 13:10:05 ls -l
+   40  2024-09-25 13:10:05 mkdir shell_script
+   41  2024-09-25 13:10:05 chmod 700 shell_script
+   42  2024-09-25 13:10:05 cd shell_script
+   43  2024-09-25 13:10:05 touch mycode.sh
+   44  2024-09-25 13:10:05 chmod 700 mycode.sh
+   45  2024-09-25 13:10:05 touch file1.txt
+   46  2024-09-25 13:10:05 chmod 700 file1.txt
+   47  2024-09-25 13:10:05 cat >> file1.txt
+   48  2024-09-25 13:10:05 cat >> mycode.sh
+   49  2024-09-25 13:10:05 chmod -x mycode.sh
+   50  2024-09-25 13:10:05 ./mycode.sh file1.txt file2.txt
+   51  2024-09-25 13:10:05 chmod 700 mycode.sh
+   52  2024-09-25 13:10:05  ./mycode.sh file1.txt file2.txt
+   53  2024-09-25 13:10:05 ls -a
+   54  2024-09-25 13:10:05 cat file2.txt
+   55  2024-09-25 13:10:05 ./mycode.sh file1.txt file1.txt
+   56  2024-09-25 13:10:05 ./mycode.sh file1.txt file3.txt
+   57  2024-09-25 13:10:05 ls -l
+   58  2024-09-25 13:10:05 ls -a
+   59  2024-09-25 13:10:05 cat file3.txt
+   60  2024-09-25 13:10:05 rm file3.txt
+   61  2024-09-25 13:10:05 ls -a
+   62  2024-09-25 13:10:05 cat file1.txt
+   63  2024-09-25 13:10:05 ./mycode.sh text1.txt file2.txt
+   64  2024-09-25 13:10:05 mkdir sjk
+   65  2024-09-25 13:10:05 cd sjk
+   66  2024-09-25 13:10:05 cd ..
+   67  2024-09-25 13:10:05 rmdir sjk
+   68  2024-09-25 13:10:05 sudo su
+   69  2024-09-25 13:10:05 ls -al
+   70  2024-09-25 13:10:05 sudo mkdir shell_script
+   71  2024-09-25 13:10:05 sudo chmod 700 shell_script
+   72  2024-09-25 13:10:05 cd shell_script
+   73  2024-09-25 13:10:05 sudo cd shell_script
+   74  2024-09-25 13:10:05 ls -l
+   75  2024-09-25 13:10:05 cd shell_script
+   76  2024-09-25 13:10:05 sudo su
+   77  2024-09-25 13:10:05 ls -al
+   78  2024-09-25 13:10:05 cd shell_script
+   79  2024-09-25 13:10:05 vi mycode.sh
+   80  2024-09-25 13:10:05 vi file1.txt
+   81  2024-09-25 13:10:05 ./mycode.sh file1.txt file2.txt
+   82  2024-09-25 13:10:05 cat file2.txt
+   83  2024-09-25 13:10:05 cat >> file2.txt
+   84  2024-09-25 13:10:05 ls -al
+   85  2024-09-25 13:10:05 cat mycode.sh
+   86  2024-09-25 13:10:05 vi mycode.sh
+   87  2024-09-25 13:10:05 rm file2.txt
+   88  2024-09-25 13:10:05 ,/mycode.sh file1.txt file2.txt
+   89  2024-09-25 13:10:05 ./mycode.sh file1.txt file2.txt
+   90  2024-09-25 13:10:05 cat file2.txt
+   91  2024-09-25 13:10:05 cat mycode.sh
+   92  2024-09-25 13:10:05 ./mycode.sh file1.txt file2.txt
+   93  2024-09-25 13:10:05 sudo apt update
+   94  2024-09-25 13:10:05 cd ..
+   95  2024-09-25 13:10:05 sudo apt update
+   96  2024-09-25 13:10:05 sudo yum update 
+   97  2024-09-25 13:10:05 sudo yum install perl
+   98  2024-09-25 13:10:05 perl -v
+   99  2024-09-25 13:10:05 ./mycode.sh file1.txt file2.txt
+  100  2024-09-25 13:10:05 ls -al
+  101  2024-09-25 13:10:05 cd shell_scripting
+  102  2024-09-25 13:10:05 cd shell_script
+  103  2024-09-25 13:10:05 ./mycode.sh file1.txt file2.txt
+  104  2024-09-25 13:10:05 cat file2.txt
+  105  2024-09-25 13:10:05 cd shell_script
+  106  2024-09-25 13:10:05 vi mycode.sh
+  107  2024-09-25 13:10:05 cat file1.txt
+  108  2024-09-25 13:10:05 vi file1.txt
+  109  2024-09-25 13:10:05 cd shell_script
+  110  2024-09-25 13:10:05 cat file1.txt
+  111  2024-09-25 13:10:05 cat file2.txt
+  112  2024-09-25 13:10:05 ./mycode.sh file1.txt file2.txt
+  113  2024-09-25 13:10:05 cat file2.txt
+  114  2024-09-25 13:10:05 vi mycode.sh
+  115  2024-09-25 13:10:05 ./mycode.sh file1.txt file2.txt
+  116  2024-09-25 13:10:05 cat file2.txt
+  117  2024-09-25 13:10:05 cat mycode.sh
+  118  2024-09-25 13:10:05 vi mycode.sh
+  119  2024-09-25 13:10:05 cat file1.txt
+  120  2024-09-25 13:10:05 cat file2.txt
+  121  2024-09-25 13:10:05 ./mycode.sh file1.txt file2.txt
+  122  2024-09-25 13:10:05 cat file2.txt
+  123  2024-09-25 13:10:05 cat mycode.sh
+  124  2024-09-25 13:10:05 -s file1.txt
+  125  2024-09-25 13:10:05 ls -al
+  126  2024-09-25 13:10:05 rm file1.txt
+  127  2024-09-25 13:10:05 rm file2.txt
+  128  2024-09-25 13:10:05 touch file1.txt
+  129  2024-09-25 13:10:05 chmod 700 file1.txt
+  130  2024-09-25 13:10:05 ./mycode.sh file1.txt file2.txt
+  131  2024-09-25 13:10:05 cat file2.txt
+  132  2024-09-25 13:10:05 adduser user2
+  133  2024-09-25 13:10:05 sudo adduser user2
+  134  2024-09-25 13:10:05 sudo passwd user2
+  135  2024-09-25 13:10:05 ls -al
+  136  2024-09-25 13:10:05 su - user1
+  137  2024-09-25 13:10:05 ls -al
+  138  2024-09-25 13:10:05 cd .ssh
+  139  2024-09-25 13:10:05 ls -al
+  140  2024-09-25 13:10:05 cat authorized_keys
+  141  2024-09-25 13:10:05 ls -al
+  142  2024-09-25 13:10:05 cd shell_script
+  143  2024-09-25 13:10:05 ls -al
+  144  2024-09-25 13:10:05 rm file2.txt
+  145  2024-09-25 13:10:05 ls -al
+  146  2024-09-25 13:10:05 cat mycode.sh
+  147  2024-09-25 13:10:05 man
+  148  2024-09-25 13:10:05 cd ..
+  149  2024-09-25 13:10:05 man
+  150  2024-09-25 13:10:05 ls -al
+  151  2024-09-25 13:10:05 cd shell_script
+  152  2024-09-25 13:10:05 cat file1.txt
+  153  2024-09-25 13:10:05 hostnamectl
+  154  2024-09-25 13:10:05 cls
+  155  2024-09-25 13:10:05 clear
+  156  2024-09-25 13:10:05 hostnamectl
+  157  2024-09-25 13:10:05 lscpu
+  158  2024-09-25 13:10:05 clear
+  159  2024-09-25 13:10:05 lscpu
+  160  2024-09-25 13:10:05 df -H
+  161  2024-09-25 13:10:05 df -g
+  162  2024-09-25 13:10:05 df -G
+  163  2024-09-25 13:10:05 df -ah
+  164  2024-09-25 13:10:05 free -g
+  165  2024-09-25 13:10:05 free -m
+  166  2024-09-25 13:10:05 clear
+  167  2024-09-25 13:10:05 sudo yum update
+  168  2024-09-25 13:10:05 sudo yum install java-21-openjdk
+  169  2024-09-25 13:10:05 java -version
+  170  2024-09-25 13:10:05 sudo yum install wget
+  171  2024-09-25 13:10:05 wget https://www.oracle.com/database/technologies/oracle21c-linux-downloads.html
+  172  2024-09-25 13:10:05 ls -al
+  173  2024-09-25 13:10:05 rm oracle21c-linux-downloads.html
+  174  2024-09-25 13:10:05 ls -al
+  175  2024-09-25 13:10:05 wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  176  2024-09-25 13:10:05 ls -al
+  177  2024-09-25 13:10:05 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  178  2024-09-25 13:10:05 ls -al
+  179  2024-09-25 13:10:05 history
+  180  2024-09-25 13:10:05 clear
+  181  2024-09-25 13:10:05 ls -al
+  182  2024-09-25 13:10:05 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  183  2024-09-25 13:10:05 sudo yum install epel-release
+  184  2024-09-25 13:10:05 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  185  2024-09-25 13:10:05 hostnamectl
+  186  2024-09-25 13:10:05 clear
+  187  2024-09-25 13:10:05 ls -al
+  188  2024-09-25 13:10:05 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  189  2024-09-25 13:10:05 wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm?AuthParam=1727073338_5cc518d16ab8ae1e1c676432bc44570b
+  190  2024-09-25 13:10:05 ls -al
+  191  2024-09-25 13:10:05 mv 'oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm?AuthParam=1727073338_5cc518d16ab8ae1e1c676432bc44570b' oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  192  2024-09-25 13:10:05 ls -al
+  193  2024-09-25 13:10:05 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  194  2024-09-25 13:10:05 clear
+  195  2024-09-25 13:10:05 ls -al
+  196  2024-09-25 13:10:05 sudo yum local install oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  197  2024-09-25 13:10:05 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  198  2024-09-25 13:10:05 clear
+  199  2024-09-25 13:10:05 ls -al
+  200  2024-09-25 13:10:05 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  201  2024-09-25 13:10:05 java -version
+  202  2024-09-25 13:10:05 wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/compat-openssl10-1.0.2o-3.el8.x86_64.rpm
+  203  2024-09-25 13:10:05 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  204  2024-09-25 13:10:05 ls -al
+  205  2024-09-25 13:10:05 sudo yum localinstall compat-openssl10-1.0.2o-3.el8.x86_64.rpm
+  206  2024-09-25 13:10:05 sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+  207  2024-09-25 13:10:05 sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  208  2024-09-25 13:10:05 free -k
+  209  2024-09-25 13:10:05 clear
+  210  2024-09-25 13:10:05 sudo /etc/init.d/oracle-xe-21c configure
+  211  2024-09-25 13:10:05 sqlplus
+  212  2024-09-25 13:10:05 export CV_ASSUME_DISTID=OEL8.1
+  213  2024-09-25 13:10:05  sudo /etc/init.d/oracle-xe-21c configure
+  214  2024-09-25 13:10:05 echo $ORACLE_HOME
+  215  2024-09-25 13:10:05 ls -al /opt/oracle/product/21c/dbhomeXE
+  216  2024-09-25 13:10:05 echo $ORACLE_SID
+  217  2024-09-25 13:10:05 echo $PATH
+  218  2024-09-25 13:10:05 ls -al
+  219  2024-09-25 13:10:05 cat .bash_profile
+  220  2024-09-25 13:10:05 sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  221  2024-09-25 13:10:05 cat .bash_profile
+  222  2024-09-25 13:10:05 cat /opt/oracle/product/21c/dbhomeXE
+  223  2024-09-25 13:10:05 vi
+  224  2024-09-25 13:10:05 echo $oracle_home
+  225  2024-09-25 13:10:05 cat .bash_profile
+  226  2024-09-25 13:10:05 cat $ORACLE_HOME/cv/admin/cvu_config through editor
+  227  2024-09-25 13:10:05 cd /opt/oracle/product/21c/dbhomeXE
+  228  2024-09-25 13:10:05 ls -al
+  229  2024-09-25 13:10:05 cd cv
+  230  2024-09-25 13:10:05 ls -al
+  231  2024-09-25 13:10:05 cd admin
+  232  2024-09-25 13:10:05 ls -al
+  233  2024-09-25 13:10:05 cd cvu_config
+  234  2024-09-25 13:10:05 cat cvu_config
+  235  2024-09-25 13:10:05 vi cvu_config
+  236  2024-09-25 13:10:05 sudo  vi cvu_config
+  237  2024-09-25 13:10:05 cat cvu_config
+  238  2024-09-25 13:10:05 ls -al
+  239  2024-09-25 13:10:05 sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+  240  2024-09-25 13:10:05 sudo /etc/init.d/oracle-xe-21c configure
+  241  2024-09-25 13:10:05 sudo /etc/init.d/oracle-xe-21c configure
+  242  2024-09-25 13:10:05 export CV_ASSUME_DISTID=OEL8.4
+  243  2024-09-25 13:10:05 sudo /etc/init.d/oracle-xe-21c configure
+  244  2024-09-25 13:10:05 sudo vi /etc/init.d/oracle-xe-21c
+  245  2024-09-25 13:10:05 sudo vi $ORACLE_HOME/cv/admin/cvu_config
+  246  2024-09-25 13:10:05 $ vi /u01/app/oracle/product/19.3.0/dbhome_1/cv/admin/cvu_config
+  247  2024-09-25 13:10:05  vi /u01/app/oracle/product/19.3.0/dbhome_1/cv/admin/cvu_config
+  248  2024-09-25 13:10:05 clear
+  249  2024-09-25 13:10:05 ls -al
+  250  2024-09-25 13:10:05 env
+  251  2024-09-25 13:10:05 history
+  252  2024-09-25 13:10:05 env
+  253  2024-09-25 13:10:05 echo $ORACLE_HOME
+  254  2024-09-25 13:10:05  Copy. $ setenv ORACLE_HOME /u01/app/oracle/product/21.0.0/dbhome_1 $ cd $ORACLE_HOME/bin $ ./orabasehome.
+  255  2024-09-25 13:10:05 echo $oracle_home
+  256  2024-09-25 13:10:05 cd oracle_home
+  257  2024-09-25 13:10:05 ls -al
+  258  2024-09-25 13:10:05 cd .bash_profile
+  259  2024-09-25 13:10:05 cat .bash_profile
+  260  2024-09-25 13:10:05 cat .bash_history
+  261  2024-09-25 13:10:05 cd ..
+  262  2024-09-25 13:10:05 ls -al
+  263  2024-09-25 13:10:05 cd oracle
+  264  2024-09-25 13:10:05 su - oracle
+  265  2024-09-25 13:10:05 su - ec2-user
+  266  2024-09-25 13:10:05 ls -al
+  267  2024-09-25 13:10:05 su - ec2-user
+  268  2024-09-25 13:10:05 sudo /etc/init.d/oracle-xe-21c configure
+  269  2024-09-25 13:10:05 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+  270  2024-09-25 13:10:05 export ORACLE_SID=XE
+  271  2024-09-25 13:10:05 export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
+  272  2024-09-25 13:10:05 sqlplus
+  273  2024-09-25 13:10:05 cd /opt
+  274  2024-09-25 13:10:05 ls -al
+  275  2024-09-25 13:10:05 cd oracle
+  276  2024-09-25 13:10:05 ls -al
+  277  2024-09-25 13:10:05 cd admin
+  278  2024-09-25 13:10:05 sudo cd admin
+  279  2024-09-25 13:10:05 ls -al
+  280  2024-09-25 13:10:05 sudo cd admin
+  281  2024-09-25 13:10:05 echo $ORACLE_HOME
+  282  2024-09-25 13:10:05 cd $ORACLE_HOME
+  283  2024-09-25 13:10:05 ls -al
+  284  2024-09-25 13:10:05 cd cv
+  285  2024-09-25 13:10:05 ls -al
+  286  2024-09-25 13:10:05 cd admin
+  287  2024-09-25 13:10:05 ls -a
+  288  2024-09-25 13:10:05 cat cvu_config
+  289  2024-09-25 13:10:05  sudo /etc/init.d/oracle-xe-21c configure
+  290  2024-09-25 13:10:05 sudo bash
+  291  2024-09-25 13:10:05 sudo /etc/init.d/oracle-xe-21c configure
+  292  2024-09-25 13:10:05 sudo export CV_ASSUME_DISTID=OEL8.4
+  293  2024-09-25 13:10:05 export CV_ASSUME_DISTID=OEL8.4
+  294  2024-09-25 13:10:05 sudo /etc/init.d/oracle-xe-21c configure
+  295  2024-09-25 13:10:05 sudo bash
+  296  2024-09-25 13:10:05 ls -al
+  297  2024-09-25 13:10:05 sudo /etc/init.d/oracle-xe-21c configure
+  298  2024-09-25 13:10:05 cat /opt/oracle/cfgtoollogs/dbca/your-log-file.log
+  299  2024-09-25 13:10:05 sudo bash
+  300  2024-09-25 13:10:05 cat /opt/oracle/product/21c/dbhomeXE/cv/admin/cvu_config
+  301  2024-09-25 13:10:05 select * from employee
+  302  2024-09-25 13:10:05 sqlplus
+  303  2024-09-25 13:10:05 vi .bash_profile
+  304  2024-09-25 13:10:05 sudo vi .bash_profile
+  305  2024-09-25 13:10:05 source ~/.bash_profile
+  306  2024-09-25 13:10:05 sqlplus
+  307  2024-09-25 13:10:05 sql plus
+  308  2024-09-25 13:10:05 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+  309  2024-09-25 13:10:05 export ORACLE_SID=XE
+  310  2024-09-25 13:10:05 export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
+  311  2024-09-25 13:10:05 sqlplus
+  312  2024-09-25 13:10:05 ls -al
+  313  2024-09-25 13:10:05 sqlplus
+  314  2024-09-25 13:10:05 sudo /etc/init.d/oracle-xe-21c configure
+  315  2024-09-25 13:10:05 sqlplus
+  316  2024-09-25 13:10:05 sudo /etc/init.d/oracle-xe-21c configure
+  317  2024-09-25 13:10:05 sqlplus
+  318  2024-09-25 13:10:05 sal
+  319  2024-09-25 13:10:05 sqlplus
+  320  2024-09-25 13:10:05 lsnrctl ststus
+  321  2024-09-25 13:10:05 lsnrctl status
+  322  2024-09-25 13:10:05 exit
+  323  2024-09-25 13:10:05 tnsping XE
+  324  2024-09-25 13:10:05 lsnrctl status
+  325  2024-09-25 13:10:05 sudo lsnrctl start
+  326  2024-09-25 13:10:05 source ~/.bash_profile
+  327  2024-09-25 13:10:05 sudo bash
+  328  2024-09-25 13:10:05 sudo su
+  329  2024-09-25 13:10:05 sudo service oracle-xe-21c status
+  330  2024-09-25 13:10:05 lsnrctl status
+  331  2024-09-25 13:10:05 cat /opt/oracle/product/21c/dbhomeXE/network/log/listener.log
+  332  2024-09-25 13:10:05 sudo cat /opt/oracle/product/21c/dbhomeXE/network/log/listener.log
+  333  2024-09-25 13:10:05 clear
+  334  2024-09-25 13:10:05 lsnrctl status
+  335  2024-09-25 13:10:05 netstat -ltnp
+  336  2024-09-25 13:10:05 tnsping XE
+  337  2024-09-25 13:10:05 sudo su
+  338  2024-09-25 13:10:05 cd .ssh
+  339  2024-09-25 13:10:05 cat authorized_keys
+  340  2024-09-25 13:10:05 cat >> authorized_keys
+  341  2024-09-25 13:10:05 exit
+  342  2024-09-25 13:10:05 cd /opt
+  343  2024-09-25 13:10:05 cd oracle
+  344  2024-09-25 13:10:05 ls -al
+  345  2024-09-25 13:10:05 cd admin
+  346  2024-09-25 13:10:05 ls -al
+  347  2024-09-25 13:10:05 cd admin
+  348  2024-09-25 13:10:05 sudo cd admin
+  349  2024-09-25 13:10:05 ls -al
+  350  2024-09-25 13:10:05 dc ..
+  351  2024-09-25 13:10:05 cd ..
+  352  2024-09-25 13:10:05 cd /opt
+  353  2024-09-25 13:10:05 cd oracle
+  354  2024-09-25 13:10:05 ls -al
+  355  2024-09-25 13:10:05 cd product
+  356  2024-09-25 13:10:05 cd 21c
+  357  2024-09-25 13:10:05 ls -al
+  358  2024-09-25 13:10:05 cd dbhomeXE
+  359  2024-09-25 13:10:05 ls -al
+  360  2024-09-25 13:10:05 cd cv
+  361  2024-09-25 13:10:05 ls -al
+  362  2024-09-25 13:10:05 cd admin
+  363  2024-09-25 13:10:05 ls -al
+  364  2024-09-25 13:10:05 cd ..
+  365  2024-09-25 13:10:05 ls -al
+  366  2024-09-25 13:10:05 cd ..
+  367  2024-09-25 13:10:05 ls -al
+  368  2024-09-25 13:10:05 cd bin
+  369  2024-09-25 13:10:05 ls -al
+  370  2024-09-25 13:10:05 su - user1
+  371  2024-09-25 13:10:05 sqlplus
+  372  2024-09-25 13:10:05 exit
+  373  2024-09-25 13:10:05 sudo bash
+  374  2024-09-25 13:10:05 sqlplus
+  375  2024-09-25 13:10:05 cd $PATH
+  376  2024-09-25 13:10:05 cd .local
+  377  2024-09-25 13:10:05 ls -al
+  378  2024-09-25 13:10:05 cd /opt
+  379  2024-09-25 13:10:05 cd oracle
+  380  2024-09-25 13:10:05 ls -al
+  381  2024-09-25 13:10:05 cd product
+  382  2024-09-25 13:10:05 ls -al
+  383  2024-09-25 13:10:05 cd 21c
+  384  2024-09-25 13:10:05 ls -al
+  385  2024-09-25 13:10:05 cd dbhomeXE
+  386  2024-09-25 13:10:05 ls -al
+  387  2024-09-25 13:10:05 cd bin
+  388  2024-09-25 13:10:05 imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+  389  2024-09-25 13:10:05 cd 
+  390  2024-09-25 13:10:05 ls -al
+  391  2024-09-25 13:10:05 sqlplus
+  392  2024-09-25 13:10:05 cd /opt/oracle
+  393  2024-09-25 13:10:05 ls -al
+  394  2024-09-25 13:10:05 cd product
+  395  2024-09-25 13:10:05 ls -al
+  396  2024-09-25 13:10:05 cd 21c
+  397  2024-09-25 13:10:05 ls -al
+  398  2024-09-25 13:10:05 cd dbhomeXE
+  399  2024-09-25 13:10:05 ls -al
+  400  2024-09-25 13:10:05 cd bin
+  401  2024-09-25 13:10:05 imp venkat/Venkat123 FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+  402  2024-09-25 13:10:05 sudo bash
+  403  2024-09-25 13:10:05 sqlplus
+  404  2024-09-25 13:10:05 ls -al /
+  405  2024-09-25 13:10:05 ls -ld /opt
+  406  2024-09-25 13:10:05 ls -al
+  407  2024-09-25 13:10:05 sudo bash
+  408  2024-09-25 13:10:05 netstat -ltnp
+  409  2024-09-25 13:10:05 su bash
+  410  2024-09-25 13:10:05 sudo bash
+  411  2024-09-25 13:10:05 cd opt.oracle
+  412  2024-09-25 13:10:05 cd opt/oracle
+  413  2024-09-25 13:10:05 cd opt
+  414  2024-09-25 13:10:05 ls -al
+  415  2024-09-25 13:10:05 su 
+  416  2024-09-25 13:10:05 su - root
+  417  2024-09-25 13:10:05 sudo bash
+  418  2024-09-25 13:10:05 ls -al
+  419  2024-09-25 13:10:05 netstat -ltnr
+  420  2024-09-25 13:10:05 netstat -tsnr
+  421  2024-09-25 13:10:05 netstat -ltnp
+  422  2024-09-25 13:10:05 echo $ORACLE_HOME
+  423  2024-09-25 13:10:05 lsnrctl status
+  424  2024-09-25 13:10:05 lsnrctl start
+  425  2024-09-25 13:10:05 su -
+  426  2024-09-25 13:10:05 sudo bash
+  427  2024-09-25 13:10:05 cat $ORACLE_HOME/network/admin/samples/listeners.ora
+  428  2024-09-25 13:10:05 cd $ORACLE_HOME
+  429  2024-09-25 13:10:05 cd network
+  430  2024-09-25 13:10:05 cd admin
+  431  2024-09-25 13:10:05 cd samples
+  432  2024-09-25 13:10:05 cat listeners.ora
+  433  2024-09-25 13:10:05 ls -al
+  434  2024-09-25 13:10:05 cat listener.ora
+  435  2024-09-25 13:10:05 netstat -ltnp
+  436  2024-09-25 13:10:05 lsnrctl status
+  437  2024-09-25 13:10:05 ls -al
+  438  2024-09-25 13:10:05 cat tnsnames.ora
+  439  2024-09-25 13:10:05 cat sqlnet.ora
+  440  2024-09-25 13:10:05 exit
+  441  2024-09-25 13:10:05 sudo bash
+  442  2024-09-25 13:10:05 sqlplus
+  443  2024-09-25 13:10:05 cd /
+  444  2024-09-25 13:10:05 cd root
+  445  2024-09-25 13:10:05 sudo bash
+  446  2024-09-25 13:10:05 sqlplus
+  447  2024-09-25 13:10:05 sqlplus
+  448  2024-09-25 13:10:05 sudo bash
+  449  2024-09-25 13:10:11 git
+  450  2024-09-25 13:10:24 sudo yum install git
+  451  2024-09-25 13:10:39 git
+  452  2024-09-25 13:11:24 git clone git@github.com:venkat793/trianing-biz-venkat.git
+  453  2024-09-25 13:12:07 cd .ssh
+  454  2024-09-25 13:12:10 ls -al
+  455  2024-09-25 13:12:49 ssh-keygen -t rsa -C "key1"
+  456  2024-09-25 13:12:57 ls -al
+  457  2024-09-25 13:13:05 cat id_rsa
+  458  2024-09-25 13:13:14 ls -al
+  459* 2024-09-25 13:13:22 cat id_rsa.pub 
+  460  2024-09-25 13:14:31 cd .ssh
+  461  2024-09-25 13:14:34 cd ..
+  462  2024-09-25 13:14:43 cd /
+  463  2024-09-25 13:14:45 cd ..
+  464  2024-09-25 13:14:55 git clone git@github.com:venkat793/trianing-biz-venkat.git
+  465  2024-09-25 13:15:37 cd home
+  466  2024-09-25 13:15:42 cd ~
+  467  2024-09-25 13:15:50 git clone git@github.com:venkat793/trianing-biz-venkat.git
+  468  2024-09-25 13:16:03 ls -al
+  469  2024-09-25 13:16:11 cd trianing-biz-venkat
+  470  2024-09-25 13:16:13 ls -al
+  471  2024-09-25 13:16:20 cat .git
+  472  2024-09-25 13:16:26 cd .git
+  473  2024-09-25 13:16:28 ls -al
+  474  2024-09-25 13:16:34 cat config
+  475  2024-09-25 13:16:54 cd ~
+  476  2024-09-25 13:16:56 pwd
+  477  2024-09-25 13:17:06 pwd -L
+  478  2024-09-25 13:18:56 ls -al
+  479  2024-09-25 13:18:59 export HISTTIMEFORMAT="%F %T "
+  480  2024-09-25 13:19:07 source ~/.bashrc
+  481  2024-09-25 13:19:15 history > commandslist.txt
